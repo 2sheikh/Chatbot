@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/4c31c2d3cb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div class="chat-header">
+            <h2>SMIT ChatBot</h2>
+        </div>
+
+        <div class="chat-box" id="chat-box">
+            <ul id="list">
+            </ul>
+        </div><br>
+        <div id="typing" style="display: none;font-size: larger;color: #0d6db7;">typing...</div><br>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Message..." onkeydown="checkEnterKey(event)">
+        </div>
+    </div>
+
+    <script src="./sript.js"></script>
+</body>
+
+</html>
